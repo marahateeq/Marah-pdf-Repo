@@ -4,6 +4,7 @@ Simple Python Script - Greeting Program
 """
 # Test Jira automation and GitHub ruleset
 # Test 2
+# Test 3
 def main():
     # Get user's name
     name = input("What's your name? ")
