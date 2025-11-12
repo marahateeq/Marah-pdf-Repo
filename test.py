@@ -5,6 +5,7 @@ Simple Python Script - Greeting Program
 # Test Jira automation and GitHub ruleset
 # Test 2
 # Test 3
+# Test 4
 # Test the name of the branch 
 def main():
     # Get user's name
