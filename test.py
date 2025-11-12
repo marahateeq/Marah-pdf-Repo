@@ -6,7 +6,8 @@ Simple Python Script - Greeting Program
 # Test 2
 # Test 3
 # Test 4
-# Test the name of the branch 
+# Test the name of the branch
+
 def main():
     # Get user's name
     name = input("What's your name? ")
