@@ -3,6 +3,10 @@ on:
   pull_request:
     types: [opened, edited, reopened, synchronize, ready_for_review]
 
+permissions:
+  contents: read
+  pull-requests: read
+
 jobs:
   validate:
     uses: marahateeq/.github/.github/workflows/pr-title-validation.yml@main
