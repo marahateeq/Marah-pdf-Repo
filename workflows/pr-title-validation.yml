@@ -1,0 +1,10 @@
+name: PR Title Validation
+on:
+  pull_request:
+    types: [opened, edited, reopened, synchronize, ready_for_review]
+
+jobs:
+  validate:
+    uses: marahateeq/.github/workflows/pr-title-validation.yml@main
+    with:
+      ticket-prefix: "KAN" # Optional, defaults to KAN
