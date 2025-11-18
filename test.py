@@ -6,6 +6,13 @@ Simple Python Script - Greeting Program
 
 
 
+
+
+
+
+
+
+
 def main():
     # Get user's name
     name = input("What's your name? ")
